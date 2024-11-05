@@ -19,27 +19,22 @@ Minimal API approach that covers the following functions:
 3. Run project using command line in terminal with `dotnet run`
 
 
-https://localhost:port/count-words?input=check this method
-https://localhost:port/count-words?input=124
-
-https://localhost:port/contains-words?input=check this method &words= check,this
-https://localhost:port/contains-words?input=check this method &words= check this
-
-https://localhost:port/count-letters?input=check this method
-https://localhost:port/count-letters?input=123 
-https://localhost:port/count-letters?input=12.5
-
-https://localhost:port/contains-letters?input=check this method&letters=c,t
-https://localhost:port/contains-letters?input=check this method&letters=ct
-https://localhost:port/contains-letters?input=check this method&letters=1
-
-https://localhost:port/is-base64?input=check this method
-https://localhost:port/is-base64?input=123.3
-
-
-https://localhost:port/is-valid-email?input=sample@example.com
-https://localhost:port/is-valid-email?input=sample@@example.com
-https://localhost:port/is-valid-email?input=sampleexample.com
+## Sample Queries
+1.  https://localhost:port/count-words?input=check this method
+2.  https://localhost:port/count-words?input=124
+3.  https://localhost:port/contains-words?input=check this method &words= check,this
+4.  https://localhost:port/contains-words?input=check this method &words= check this
+5.  https://localhost:port/count-letters?input=check this method
+6.  https://localhost:port/count-letters?input=123 
+7.  https://localhost:port/count-letters?input=12.5
+8.  https://localhost:port/contains-letters?input=check this method&letters=c,t
+9.  https://localhost:port/contains-letters?input=check this method&letters=ct
+10. https://localhost:port/contains-letters?input=check this method&letters=1
+11. https://localhost:port/is-base64?input=check this method
+12. https://localhost:port/is-base64?input=123.3
+13. https://localhost:port/is-valid-email?input=sample@example.com
+14. https://localhost:port/is-valid-email?input=sample@@example.com
+15. https://localhost:port/is-valid-email?input=sampleexample.com
 
 ## For Testing
 For the test project run "AnalyseText.Tests"
